@@ -125,7 +125,6 @@ a {
   
 
 .grid-item img {
-    width: 100%;
     height: 200px; /* Ajuste a altura da imagem para ocupar 60% do espaço disponível */
     object-fit: cover; /* Para garantir que a imagem preencha todo o espaço, mantendo sua proporção */
     object-position: top; /* Para alinhar a imagem ao topo do quadrado da grade */
