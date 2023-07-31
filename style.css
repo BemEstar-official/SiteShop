@@ -239,6 +239,10 @@ footer {
     .grid-container {
         grid-template-columns: repeat(2, minmax(200px, 1fr)); /* altere para duas colunas em telas menores */
         gap: 30px; /* espaçamento menor entre os itens da grade */
+        margin: 0 20px; /* reduza a margem nas bordas laterais */
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto; 
     }
 
 
@@ -256,7 +260,11 @@ footer {
 
     .grid-container {
         grid-template-columns: repeat(1, minmax(200px, 1fr)); /* altere para duas colunas em telas menores */
-        gap: 30px; /* espaçamento menor entre os itens da grade */
+        gap: 20px; /* espaçamento menor entre os itens da grade */
+        margin: 0 20px; /* reduza a margem nas bordas laterais */
+        width: 350px;
+        margin-right: auto;
+        margin-left: auto; 
     }
 
 
@@ -268,7 +276,7 @@ footer {
         align-content: center;
     }
 }
-  
+
 
 
 
@@ -300,17 +308,18 @@ footer {
     }
 
 
+    
     .grid-item img {
-        height: 195px; 
-        width: 347px;
-        
+        height: 250px; 
     }
-
 
     .grid-container {
             grid-template-columns: repeat(1, minmax(200px, 1fr)); /* altere para uma coluna em telas ainda menores */
             gap: 15px; /* espaçamento ainda menor entre os itens da grade */
             margin: 0 20px; /* reduza a margem nas bordas laterais */
+            width: 250px;
+            margin-right: auto;
+            margin-left: auto;            
     }
     
 
@@ -370,8 +379,12 @@ footer {
 @media screen and (max-width: 425px) {
 
     .grid-container {
-        grid-template-columns: repeat(1, minmax(200px, 1fr)); /* altere para duas colunas em telas menores */
-        gap: 15px; /* espaçamento menor entre os itens da grade */
+        grid-template-columns: repeat(1, minmax(200px, 1fr)); /* altere para uma coluna em telas ainda menores */
+        gap: 15px; /* espaçamento ainda menor entre os itens da grade */
+        margin: 0 20px; /* reduza a margem nas bordas laterais */
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;            
     }
 
     .grid-item img {
