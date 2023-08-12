@@ -26,6 +26,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -800px;
     height: 100%;
     text-rendering: optimizeLegibility;
     text-shadow: 0 0 1px transparent;
@@ -224,12 +225,32 @@ footer {
 /* Você pode ajustar os valores das media queries de acordo com suas necessidades */
 
 @media screen and (max-width: 1200px) {
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        height: 100%;
+        text-rendering: optimizeLegibility;
+        text-shadow: 0 0 1px transparent;
+    
+    }
 
 
 }
   
 @media screen and (max-width: 992px) {
 
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        height: 100%;
+        text-rendering: optimizeLegibility;
+        text-shadow: 0 0 1px transparent;
+    
+    }
 
 
     .grid-item img {
@@ -250,6 +271,16 @@ footer {
   
 @media screen and (max-width: 768px) {
     
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        height: 100%;
+        text-rendering: optimizeLegibility;
+        text-shadow: 0 0 1px transparent;
+    
+    }
 
 
 
@@ -302,9 +333,11 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: auto;
         height: 100%;
         text-rendering: optimizeLegibility;
         text-shadow: 0 0 1px transparent;
+    
     }
 
 
